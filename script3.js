@@ -1,11 +1,11 @@
-const open_btn = document.querySelector('.open-btn')
-const close_btn = document.querySelector('.close-btn')
-const nav = document.querySelectorAll('.nav')
+const openn_btn = document.querySelector('.openn-btn')
+const closee_btn = document.querySelector('.closee-btn')
+const navv = document.querySelectorAll('.navv')
 
-open_btn.addEventListener('click', () => {
-    nav.forEach(nav_el => nav_el.classList.add('visible'))
+openn_btn.addEventListener('click', () => {
+    navv.forEach(nav_el => nav_el.classList.add('visible'))
 })
 
-close_btn.addEventListener('click', () => {
-    nav.forEach(nav_el => nav_el.classList.remove('visible'))
+closee_btn.addEventListener('click', () => {
+    navv.forEach(nav_el => nav_el.classList.remove('visible'))
 })
