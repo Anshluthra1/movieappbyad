@@ -3,8 +3,9 @@
 
 nav {
   background-color: #fff;
-  padding: 200px;
+  padding: 20px;
   width: 80px;
+  margin-left:30px;
   display: flex;
   align-items: center;
   justify-content: center;
